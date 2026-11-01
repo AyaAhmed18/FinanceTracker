@@ -38,7 +38,7 @@ public class ReportService : IReportService
             Month = month,
             TotalIncome = income,
             TotalExpenses = expenses,
-            Balance = income - expenses,
+            Balance = income -expenses,
             ByCategory = byCategory
         };
     }
